@@ -1,51 +1,63 @@
 .hero-container {
-  display: flex; /* This will place items side-by-side */
-  align-items: center; /* This will vertically align them */
+  display: flex;
+  align-items: center;
   justify-content: center;
-  gap: 3rem; /* Adds space between the photo and the text */
-  padding: 4rem 2rem;
-  min-height: 80vh;
-  background-color: #f4f4f4;
-  flex-wrap: wrap; /* Allows items to stack on smaller screens */
+  gap: 3rem;
+  padding: 6rem 2rem;
+  min-height: 90vh;
+  color: #282c34; /* Dark text for better contrast */
+  flex-wrap: wrap;
 }
 
 .hero-photo {
   width: 250px;
   height: 250px;
-  border-radius: 50%; /* This makes the photo circular */
-  object-fit: cover; /* Ensures the image covers the area without distortion */
-  border: 5px solid #ffffff;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  object-fit: cover;
+  border: 7px solid rgba(255, 255, 255, 0.5); /* Semi-transparent white border */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
 .hero-content {
-  text-align: left; /* Aligns text to the left now that it's not centered */
+  text-align: left;
   max-width: 500px;
 }
 
 .hero-content h1 {
-  font-size: 3rem;
-  margin-bottom: 1rem;
-  color: #333;
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #282c34; /* Dark text */
+  text-shadow: none; /* Removed shadow as it's not needed for dark text */
 }
 
-.hero-content p {
-  font-size: 1.2rem;
+.hero-details {
   margin-bottom: 2rem;
-  color: #555;
+}
+
+.hero-details p {
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin: 0.25rem 0;
+  color: #3d424b; /* Slightly lighter dark text */
+  opacity: 1;
 }
 
 .hero-button {
-  padding: 0.8rem 1.5rem;
-  font-size: 1rem;
-  color: white;
-  background-color: #007bff;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: white; /* Changed text to white for contrast with blue button */
+
   border: none;
-  border-radius: 5px;
+  border-radius: 50px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .hero-button:hover {
-  background-color: #0056b3;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+
 }

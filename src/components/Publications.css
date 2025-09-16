@@ -1,6 +1,5 @@
 .publications-section {
   padding: 4rem 2rem;
-  background-color: #f4f4f4; /* Light grey background */
 }
 
 .publications-section h2 {
@@ -17,7 +16,6 @@
 }
 
 .publication-item {
-  background-color: #fff;
   padding: 1.5rem;
   margin-bottom: 1.5rem;
   border-radius: 5px;

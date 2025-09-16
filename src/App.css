@@ -40,3 +40,9 @@
 .read-the-docs {
   color: #888;
 }
+
+/* Global style for all section headings */
+h2 {
+  color: #3CB371; /* This is a pleasant, readable light green */
+  font-weight: 600;
+}

@@ -1,6 +1,5 @@
 .education-section {
   padding: 4rem 2rem;
-  background-color: #f4f4f4; /* Light grey background to separate it */
 }
 
 .education-section h2 {
@@ -19,7 +18,6 @@
   gap: 1.5rem;
   margin-bottom: 2rem;
   padding: 1.5rem;
-  background-color: #ffffff;
   border-left: 5px solid #007bff; /* Blue accent line */
   border-radius: 5px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.05);
@@ -28,7 +26,6 @@
 .education-year {
   font-size: 1.2rem;
   font-weight: bold;
-  color: #007bff;
   min-width: 80px;
 }
 
