@@ -12,9 +12,9 @@ function Footer() {
         </div>
         <div className="footer-links">
           <h3>Links</h3>
-          {/* Add your actual profile links here */}
-          <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
-          <a href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          {/* Updated links */}
+          <a href="https://github.com/amandeepsinghcheema222" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/amandeepcheema222/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
           <a href="#" target="_blank" rel="noopener noreferrer">Google Scholar</a>
         </div>
       </div>
