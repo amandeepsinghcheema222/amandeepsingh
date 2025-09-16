@@ -1,0 +1,38 @@
+/* Basic styles for the navbar container */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #282c34;
+  padding: 1rem 2rem;
+  color: white;
+}
+
+/* Styles for the portfolio title/logo */
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Styles for the navigation links list */
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 1.5rem; /* Adds space between the list items */
+}
+
+/* Styles for individual list items */
+nav ul li a {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+/* Style for links on hover */
+nav ul li a:hover {
+  color: #61dafb; /* A light blue color */
+  text-decoration: underline;
+}

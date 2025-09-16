@@ -1,0 +1,43 @@
+.publications-section {
+  padding: 4rem 2rem;
+  background-color: #f4f4f4; /* Light grey background */
+}
+
+.publications-section h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.publications-list {
+  max-width: 900px;
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+}
+
+.publication-item {
+  background-color: #fff;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  border-left: 5px solid #282c34;
+}
+
+.publication-item p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.publication-item a {
+  font-weight: bold;
+  color: #007bff;
+  text-decoration: none;
+  transition: text-decoration 0.3s ease;
+}
+
+.publication-item a:hover {
+  text-decoration: underline;
+}
