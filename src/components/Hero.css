@@ -1,11 +1,26 @@
 .hero-container {
-  display: flex;
+  display: flex; /* This will place items side-by-side */
+  align-items: center; /* This will vertically align them */
   justify-content: center;
-  align-items: center;
+  gap: 3rem; /* Adds space between the photo and the text */
   padding: 4rem 2rem;
-  min-height: 80vh; /* Takes up most of the screen height */
-  text-align: center;
-  background-color: #f4f4f4; /* A light grey background */
+  min-height: 80vh;
+  background-color: #f4f4f4;
+  flex-wrap: wrap; /* Allows items to stack on smaller screens */
+}
+
+.hero-photo {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%; /* This makes the photo circular */
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+  border: 5px solid #ffffff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.hero-content {
+  text-align: left; /* Aligns text to the left now that it's not centered */
+  max-width: 500px;
 }
 
 .hero-content h1 {
@@ -24,7 +39,7 @@
   padding: 0.8rem 1.5rem;
   font-size: 1rem;
   color: white;
-  background-color: #007bff; /* A nice blue color */
+  background-color: #007bff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -32,5 +47,5 @@
 }
 
 .hero-button:hover {
-  background-color: #0056b3; /* A darker blue on hover */
+  background-color: #0056b3;
 }
